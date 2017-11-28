@@ -34,7 +34,7 @@
 
  export PATH=$JAVA_HOME/bin:$PATH
 
- export CLASSPATH=$CLASSPATH:/home/jdbc.jar
+ export CLASSPATH=$CLASSPATH:/home/jdbc3.jar
 
  #↑ CLASSPATH 是設定等等PYTHON會用到的jar 看會用到的jar放哪裡路徑就怎麼設定
 
