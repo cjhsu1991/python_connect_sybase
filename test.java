@@ -15,7 +15,7 @@ public class test {
 	try {
 	// Register JDBC Driver
 	Class.forName("com.sybase.jdbc3.jdbc.SybDriver");
-	connection = DriverManager.getConnection("jdbc:sybase:Tds:10.63.7.6:5000/cp_inventory","cp_inv", "taisweet");
+	connection = DriverManager.getConnection("jdbc:sybase:Tds:IP名稱:PORT埠/資料庫名稱","帳號", "密碼");
 
 	if (null != connection) {
 		System.out.println("Sucessfully "
