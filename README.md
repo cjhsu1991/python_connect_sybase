@@ -52,4 +52,11 @@
  pip install jaydebeapi3
  
  在ubuntu 的 python環境中 執行資料夾的 test.py 程式 確認是否可以順利連線
+ 
+ 
+ # 備註
+ 
+ java 執行 sql procedure
+
+ EXEC procedure名稱 @procedure變數名稱='procedure變數值'
 
